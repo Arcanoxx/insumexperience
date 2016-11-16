@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75EAA907-79A0-71F8-7273-80C1BCF0517D" name="IE_UBIGEO">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 03:38:30 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UB_ID" id="248B5F7A-3418-50FD-A7AB-B840789690D4">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 03:54:57 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>IE_UBIGEO_SEQ_ID</autoIncrementSequenceName>
+<autoIncrementTriggerName>IE_UBIGEO_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="UB_NOMBRE" id="436B178B-CB3D-8FD4-A698-45307E5A40C5">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 03:54:57 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UB_PADRE" id="2BBFE923-7A15-3A18-8F37-3F1F11ACA0AE">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 03:54:57 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DBCD75D-539B-B78F-3A56-7933B79549F4" referredColumn="248B5F7A-3418-50FD-A7AB-B840789690D4"/>
+</associations>
+</Column>
+<Column name="UB_CODIGO" id="48E2ECF2-6E8C-6E86-E2B0-A0DDB775AA86">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 06:38:29 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="935FA1E4-C705-D8F5-EF11-E23C59354894" name="IE_UBIGEO_PK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 03:54:57 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="248B5F7A-3418-50FD-A7AB-B840789690D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D6C1E52-48EA-CA11-3CA8-744A7EEDDF65" name="IE_UG_IE_UG_FK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 04:05:37 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BBFE923-7A15-3A18-8F37-3F1F11ACA0AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

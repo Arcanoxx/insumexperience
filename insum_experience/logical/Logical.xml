@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="236B1EBD-06D4-BC16-C5FF-1B3BDFFFE450" mainViewID="6F0FFE64-E599-B2F0-0874-9FB8A22048D4">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-15 20:07:36 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

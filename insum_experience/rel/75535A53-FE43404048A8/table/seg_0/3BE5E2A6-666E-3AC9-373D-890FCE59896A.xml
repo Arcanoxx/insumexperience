@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BE5E2A6-666E-3AC9-373D-890FCE59896A" name="IE_CLIENTE_SERVICIO">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 05:19:00 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<abbreviation>CS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CS_ID" id="6E86A4E0-66B9-0816-E5D9-2A759AE025BD">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 05:33:10 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>IE_CLIENTE_SE_SEQ_ID</autoIncrementSequenceName>
+<autoIncrementTriggerName>IE_CLIENTE_SE_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="CL_ID" id="0309D6BE-C2B5-3E4A-E475-93A61BC171A5">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 05:33:10 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F17F84E-DD76-71F9-B952-1B0C7A968B5B" referredColumn="F9BB8E6D-EDF0-5CB3-19C5-78D46310267A"/>
+</associations>
+</Column>
+<Column name="SE_ID" id="409EE27F-81D7-CA04-D42B-8A28EB37C479">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 05:33:10 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBB09820-A87C-99E7-576A-0E5D0E654E31" referredColumn="89537015-DB57-3E28-E1EF-39F99F81B57A"/>
+</associations>
+</Column>
+<Column name="CS_FECHA_CONTRATO" id="C51DFA7C-AA9D-D443-5D75-80F69426D581">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 05:33:10 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="US_CREADO_POR" id="82F5CF27-F7E1-B81E-65A2-B0E47F4333B8">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 05:33:10 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="619D567C-B8CD-62B8-AD88-D66E7EB0EDFD" referredColumn="4897051C-8A6F-D1DF-411D-E906AF266AB2"/>
+</associations>
+</Column>
+<Column name="CS_CREADO_EN" id="9821A49F-1EFF-8CA7-4337-3D455DFE22EC">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 05:33:10 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="US_ACTUALIZADO_POR" id="5806EBA4-CFBD-FEBD-A946-5DCC063F4833">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 05:33:10 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E214AE01-1A19-36B5-D458-46DF2AF23A14" referredColumn="4897051C-8A6F-D1DF-411D-E906AF266AB2"/>
+</associations>
+</Column>
+<Column name="CS_ACTUALIZADO_EN" id="48E60088-5EFE-934C-0355-1F06A10537E8">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 05:33:10 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E537AFF-5097-387A-6DCC-9EE9AF84F3EB" name="IE_CLIENTE_SERVICIO_PK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 05:33:10 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E86A4E0-66B9-0816-E5D9-2A759AE025BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DB44F1E-B703-990C-F7B0-C0928F040B0C" name="IE_CS_IE_CL_FK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 05:33:27 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0309D6BE-C2B5-3E4A-E475-93A61BC171A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F40D96B-BD34-92F6-15E9-F9D1DA2EEF87" name="IE_CS_IE_SE_FK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 05:33:52 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="409EE27F-81D7-CA04-D42B-8A28EB37C479"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F1CD777-6A6F-7192-6629-3DF02E92732F" name="IE_CS_IE_US_CR_FK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 05:34:18 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82F5CF27-F7E1-B81E-65A2-B0E47F4333B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="244E96AC-4CA0-349D-EDD1-B35F8868FBDF" name="IE_CS_IE_US_AC_FK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-16 05:34:31 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5806EBA4-CFBD-FEBD-A946-5DCC063F4833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
