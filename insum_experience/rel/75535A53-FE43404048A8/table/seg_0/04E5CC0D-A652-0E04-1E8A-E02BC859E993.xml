@@ -60,11 +60,10 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TD_VALOR" id="9DABAE6B-DAAC-FCB2-8873-50B331D765A4">
+<Column name="TD_ACTIVO" id="7466CA3B-1ACB-8BBC-7161-E1A7E3781BFD">
 <createdBy>Mirie</createdBy>
-<createdTime>2016-11-15 21:51:30 UTC</createdTime>
+<createdTime>2016-11-21 16:11:39 UTC</createdTime>
 <ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

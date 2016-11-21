@@ -24,52 +24,26 @@
 <autoIncrementSequenceName>IE_USUARIO_SEQ_ID</autoIncrementSequenceName>
 <autoIncrementTriggerName>IE_USUARIO_TRG</autoIncrementTriggerName>
 </Column>
-<Column name="US_NOMBRES" id="278A635B-B061-0B04-E950-491152644D4E">
+<Column name="US_USERNAME" id="46BEF67F-67D5-25D9-DAB2-E3C1B020EE00">
 <createdBy>Mirie</createdBy>
-<createdTime>2016-11-16 01:45:15 UTC</createdTime>
+<createdTime>2016-11-16 03:36:19 UTC</createdTime>
 <ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="US_APELLIDOS" id="023D53F5-456E-0F6E-322A-1EE8DAA2565B">
+<Column name="US_PASSWORD" id="A3C24705-E060-7768-AD98-6D909C4BD659">
 <createdBy>Mirie</createdBy>
-<createdTime>2016-11-16 01:45:15 UTC</createdTime>
+<createdTime>2016-11-16 03:36:19 UTC</createdTime>
 <ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="RO_ID" id="E711D9E8-B895-D42B-A796-E676CD66B671">
-<createdBy>Mirie</createdBy>
-<createdTime>2016-11-16 01:45:15 UTC</createdTime>
-<ownerDesignName>insum_experience</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="003BBFB4-9EB8-B015-3DA2-B885A9EFA66C" referredColumn="246393CF-0B07-8A68-C888-23E582BA6D19"/>
-</associations>
-</Column>
-<Column name="UG_CIUDAD" id="11566DC0-E8A2-0F0F-40C1-A55FFFAF4F16">
-<createdBy>Mirie</createdBy>
-<createdTime>2016-11-16 01:45:15 UTC</createdTime>
-<ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="US_EMAIL" id="D7DD8FEF-9B69-51B1-76EA-709A8693B027">
@@ -84,95 +58,20 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="US_TELEFONO1" id="048A01EB-A5A6-5470-BE39-A8DEA36A4CE0">
+<Column name="US_ACTIVO" id="33660DC3-0474-0E2F-2C7C-B2007DB68960">
 <createdBy>Mirie</createdBy>
-<createdTime>2016-11-16 03:36:19 UTC</createdTime>
+<createdTime>2016-11-21 02:09:07 UTC</createdTime>
 <ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25</dataTypeSize>
-<ownDataTypeParameters>25,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="US_TELEFONO2" id="ADE50E5A-9DD2-225F-6EA5-E4958074C113">
-<createdBy>Mirie</createdBy>
-<createdTime>2016-11-16 03:36:19 UTC</createdTime>
-<ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25</dataTypeSize>
-<ownDataTypeParameters>25,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="US_DESCRIPCION" id="46BEF67F-67D5-25D9-DAB2-E3C1B020EE00">
-<createdBy>Mirie</createdBy>
-<createdTime>2016-11-16 03:36:19 UTC</createdTime>
-<ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="US_PASSWORD" id="A3C24705-E060-7768-AD98-6D909C4BD659">
-<createdBy>Mirie</createdBy>
-<createdTime>2016-11-16 03:36:19 UTC</createdTime>
-<ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="US_DIRECCION1" id="D9544FC8-8788-E71D-4249-7FD7B21767A1">
-<createdBy>Mirie</createdBy>
-<createdTime>2016-11-16 03:36:19 UTC</createdTime>
-<ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="US_DIRECCION2" id="E4F39D71-3850-B6BB-23AE-1584DE7A08E9">
-<createdBy>Mirie</createdBy>
-<createdTime>2016-11-16 03:36:19 UTC</createdTime>
-<ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="US_PAIS" id="16BB013F-58CF-2695-4252-A57057229A2D">
-<createdBy>Mirie</createdBy>
-<createdTime>2016-11-16 03:36:19 UTC</createdTime>
-<ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="US_CREADO_EN" id="97A62B12-942A-CAF7-B791-F6C784FF3827">
 <createdBy>Mirie</createdBy>
 <createdTime>2016-11-16 03:36:19 UTC</createdTime>
 <ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -189,12 +88,14 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C60D622-18EA-7142-7A01-231BA3665DA3" referredColumn="4897051C-8A6F-D1DF-411D-E906AF266AB2"/>
+</associations>
 </Column>
 <Column name="US_ACTUALIZADO_EN" id="56D0F78B-F38B-857A-2F2A-3781206EF4AB">
 <createdBy>Mirie</createdBy>
 <createdTime>2016-11-16 03:36:19 UTC</createdTime>
 <ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -211,6 +112,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BC64E4E-E601-9D9C-625C-CB915B32C4F1" referredColumn="4897051C-8A6F-D1DF-411D-E906AF266AB2"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -225,14 +129,24 @@
 <colUsage columnID="4897051C-8A6F-D1DF-411D-E906AF266AB2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BEC1C7C3-9D97-9014-B714-0019521857BE" name="IE_US_IE_RO_FK">
+<ind_PK_UK id="32854F5F-CE73-A1F5-3515-E0AC46B742B2" name="IE_US_IE_US_CR_FK">
 <createdBy>Mirie</createdBy>
-<createdTime>2016-11-16 19:41:12 UTC</createdTime>
+<createdTime>2016-11-21 02:21:44 UTC</createdTime>
 <ownerDesignName>insum_experience</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E711D9E8-B895-D42B-A796-E676CD66B671"/>
+<colUsage columnID="182093A8-6CE3-4E43-9F5B-F0F190BE2E02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B557B547-86B6-F626-1BFB-BF7CEFEC28AB" name="IE_US_IE_US_AC_FK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 02:22:07 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF67B686-578C-31EC-70DB-D58BBC838393"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

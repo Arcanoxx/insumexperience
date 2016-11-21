@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="895FEC0C-D976-8F4D-3BAD-4037ACBA340E" name="IE_PERSONA_PERFIL">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 02:38:13 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<abbreviation>PP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PP_ID" id="4DB36405-0419-2188-C8CA-93DC3744EBEF">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 02:40:25 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>IE_PP_SEQ_ID</autoIncrementSequenceName>
+<autoIncrementTriggerName>IE_PP_TRG</autoIncrementTriggerName>
+<notNullConstraintName>NNC_PP_PP_ID</notNullConstraintName>
+</Column>
+<Column name="PE_ID" id="C834597B-1F2E-3768-BE6E-0E06BA47AD16">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 02:42:27 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PP_PE_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="E5C20901-7121-A18C-3DB3-4ABCA6828CE4" referredColumn="21E56CEA-572B-527D-74A4-1C955FA888C1"/>
+</associations>
+</Column>
+<Column name="PF_ID" id="634C7FE1-7AFF-AE52-2D7A-917CC9B94864">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 03:10:16 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D53756AC-06AC-831D-8832-8999A994A87F" referredColumn="B7BB8AD1-BD01-FAA8-BD70-A1F1C88FED91"/>
+</associations>
+</Column>
+<Column name="US_CREADO_POR" id="ABC0CA34-37C5-7D90-64CB-31653C2EBBD2">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 02:40:25 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PP_US_CREADO_POR</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="2FC3B21E-5A97-CD0E-F1DC-D419B6A48E62" referredColumn="4897051C-8A6F-D1DF-411D-E906AF266AB2"/>
+</associations>
+</Column>
+<Column name="PP_CREADO_EN" id="6F3F9FAA-124A-166B-AB45-D8F9B68BB557">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 02:40:25 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PP_PP_CREADO_EN</notNullConstraintName>
+</Column>
+<Column name="US_ACTUALIZADO_POR" id="F6C33D51-EB1B-7E59-A146-B1AB2577C6AA">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 02:40:25 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PP_US_ACTUALIZADO_POR</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="EA207C15-42E7-FAB9-2376-0FC7121462B7" referredColumn="4897051C-8A6F-D1DF-411D-E906AF266AB2"/>
+</associations>
+</Column>
+<Column name="PP_ACTUALIZADO_POR" id="0D53021B-28F5-6C64-6705-8628AA0CDBED">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 02:40:25 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PP_PP_ACTUALIZADO_POR</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="018B6190-29AF-A3F9-6E35-2A49D7BE94CC" name="IE_PERSONA_PERFIL_PK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 02:40:25 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DB36405-0419-2188-C8CA-93DC3744EBEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEE46574-0B50-5F94-49D8-6559DBC295C7" name="IE_PP_IE_PE_FK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 03:12:00 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C834597B-1F2E-3768-BE6E-0E06BA47AD16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C10A4C6-DFC1-C1CF-2891-F827676F8795" name="IE_PP_IE_PE_FKv2">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 03:12:24 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="634C7FE1-7AFF-AE52-2D7A-917CC9B94864"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E689C266-6688-CEC2-025C-3DFF06DDAC76" name="IE_PP_IE_US_CR_FK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 03:24:34 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABC0CA34-37C5-7D90-64CB-31653C2EBBD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66CCEE5F-C51A-7698-FBC1-6EEF76DCF941" name="IE_PP_IE_US_AC_FK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 03:25:23 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6C33D51-EB1B-7E59-A146-B1AB2577C6AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

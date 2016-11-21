@@ -24,7 +24,7 @@
 <autoIncrementSequenceName>IE_CA_SEQ_ID</autoIncrementSequenceName>
 <autoIncrementTriggerName>IE_CA_TRG</autoIncrementTriggerName>
 </Column>
-<Column name="CL_ID" id="50098F27-EBBA-4102-F779-2C192FDEFA21">
+<Column name="PE_CLIENTE" id="50098F27-EBBA-4102-F779-2C192FDEFA21">
 <createdBy>Mirie</createdBy>
 <createdTime>2016-11-17 23:45:06 UTC</createdTime>
 <ownerDesignName>insum_experience</ownerDesignName>
@@ -34,10 +34,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="11BA2B0B-A365-62A4-B7FC-CF19E6BFA5A6" referredColumn="F9BB8E6D-EDF0-5CB3-19C5-78D46310267A"/>
+<colAssociation fkAssociation="FDE78A27-3102-8C4C-9BB2-06C53815C40F" referredColumn="21E56CEA-572B-527D-74A4-1C955FA888C1"/>
 </associations>
 </Column>
-<Column name="VE_ID" id="53F7E788-232D-E8CE-5C75-64E97F3A1296">
+<Column name="PE_VENDEDOR" id="53F7E788-232D-E8CE-5C75-64E97F3A1296">
 <createdBy>Mirie</createdBy>
 <createdTime>2016-11-17 23:45:06 UTC</createdTime>
 <ownerDesignName>insum_experience</ownerDesignName>
@@ -47,25 +47,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="BF61729F-73D4-5191-4E3E-9F88F88AEA4B" referredColumn="453E1A97-08CA-ADD3-1F39-B5B63E9D413A"/>
+<colAssociation fkAssociation="C68612C8-60D8-FC9E-92E4-691C8C341DDE" referredColumn="21E56CEA-572B-527D-74A4-1C955FA888C1"/>
 </associations>
 </Column>
 <Column name="TD_ESTADO_NEGOCIACION" id="E3BED1BA-1A19-1A7E-13F9-B5969A41530D">
 <createdBy>Mirie</createdBy>
 <createdTime>2016-11-17 23:47:49 UTC</createdTime>
+<commentInRDBMS>&lt;br/&gt;</commentInRDBMS>
+<notes>-interesado&lt;br/&gt;-contratado&lt;br/&gt;-pendiente&lt;br/&gt;-no interesado</notes>
 <ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72B33FB3-B6C3-D676-7A20-0BEB3F175E85" referredColumn="943C4A77-A5DD-7E46-35E1-A264DFFDCD84"/>
+</associations>
 </Column>
 <Column name="CA_ACTIVO" id="8BFB7B3B-208F-F82F-D3ED-79B97CCE55F9">
 <createdBy>Mirie</createdBy>
 <createdTime>2016-11-17 23:47:49 UTC</createdTime>
 <ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -89,7 +92,6 @@
 <createdBy>Mirie</createdBy>
 <createdTime>2016-11-17 23:47:49 UTC</createdTime>
 <ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -113,7 +115,6 @@
 <createdBy>Mirie</createdBy>
 <createdTime>2016-11-17 23:47:49 UTC</createdTime>
 <ownerDesignName>insum_experience</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -131,26 +132,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BB2C63BB-78F1-D6BC-25D2-7D5B5B1DE94D"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="4B91A09F-069D-CAB6-A873-2EBDC5731144" name="IE_CA_IE_CL_FK">
-<createdBy>Mirie</createdBy>
-<createdTime>2016-11-17 23:54:01 UTC</createdTime>
-<ownerDesignName>insum_experience</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="50098F27-EBBA-4102-F779-2C192FDEFA21"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="AE76D81B-BFF8-C26D-1D11-AEA8CA5A6EAA" name="IE_CA_IE_VE_FK">
-<createdBy>Mirie</createdBy>
-<createdTime>2016-11-18 00:00:17 UTC</createdTime>
-<ownerDesignName>insum_experience</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="53F7E788-232D-E8CE-5C75-64E97F3A1296"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F5D82B14-DC48-7C7E-F627-208C740D618E" name="IE_CA_IE_US_CR_FK">
@@ -171,6 +152,36 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="015EC674-777B-BB3B-F76C-E4AEC956CA05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D558DCE2-A07F-5803-B6A6-408A1C0B5D2B" name="IE_CC_IE_TD_FK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 02:20:50 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3BED1BA-1A19-1A7E-13F9-B5969A41530D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39DDF97B-BD2C-2584-44C3-3C56BA18BD03" name="IE_CC_IE_PE_CL_FK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 02:33:25 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50098F27-EBBA-4102-F779-2C192FDEFA21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4ADFD782-85E0-7FB7-1359-117F7F2E344F" name="IE_CC_IE_PE_VE_FK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 02:34:31 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53F7E788-232D-E8CE-5C75-64E97F3A1296"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

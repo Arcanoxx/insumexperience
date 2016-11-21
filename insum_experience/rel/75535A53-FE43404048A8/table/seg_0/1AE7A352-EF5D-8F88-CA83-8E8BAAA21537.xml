@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AE7A352-EF5D-8F88-CA83-8E8BAAA21537" name="IE_PERFIL">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 01:30:23 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<abbreviation>PF</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PF_ID" id="B7BB8AD1-BD01-FAA8-BD70-A1F1C88FED91">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 01:33:18 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>IE_PF_SEQ_ID</autoIncrementSequenceName>
+<autoIncrementTriggerName>IE_PF_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="PF_NOMBRE" id="DF07D189-C2B2-9121-EE81-C0DA2699A59E">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 01:33:18 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PF_DESCRIPCION" id="8E4BB6C8-FFFA-B419-F957-2C8AAFE47E34">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 01:33:18 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PF_ACTIVO" id="F403E98F-43FA-72E0-76B4-34DC35143AA9">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 02:08:38 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="US_CREADO_POR" id="A9473DAD-DE67-8B11-02C4-424D47F99728">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 01:33:18 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECC244D5-E9C1-A416-1AB0-6A1FCA0AFC22" referredColumn="4897051C-8A6F-D1DF-411D-E906AF266AB2"/>
+</associations>
+</Column>
+<Column name="PF_CREADO_EN" id="B8B3AF81-297E-143E-8DB5-278395799E1D">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 01:33:18 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="US_ACTUALIZADO_POR" id="BDBF68E0-596C-1721-4058-2A5B093777D3">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 01:33:18 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DBCA10C-92A5-05FB-11B4-7D74BE2711C6" referredColumn="4897051C-8A6F-D1DF-411D-E906AF266AB2"/>
+</associations>
+</Column>
+<Column name="PF_ACTUALIZADO_EN" id="17D0F3CD-AE1E-805C-F8A7-77DD60434A43">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 01:33:18 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B3E2DA9-8272-BBE4-4554-F74FDFE1560A" name="IE_PERFIL_PK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 01:33:18 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7BB8AD1-BD01-FAA8-BD70-A1F1C88FED91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8211274-5BA0-D0C1-4EB4-82FC474E3F98" name="IE_PF_IE_US_CR_FK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 01:51:34 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9473DAD-DE67-8B11-02C4-424D47F99728"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BEAC645-F0C7-D450-2A21-34904C5CC8FA" name="IE_PF_IE_US_AC_FK">
+<createdBy>Mirie</createdBy>
+<createdTime>2016-11-21 01:52:08 UTC</createdTime>
+<ownerDesignName>insum_experience</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDBF68E0-596C-1721-4058-2A5B093777D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
