@@ -44,19 +44,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CC_APELLIDO" id="0D2D74D0-F3C2-AE5B-506F-6548573E6470">
-<createdBy>Mirie</createdBy>
-<createdTime>2016-11-16 04:12:47 UTC</createdTime>
-<ownerDesignName>insum_experience</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>70</dataTypeSize>
-<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="TD_CARGO" id="27CFDE83-5CF4-4FB3-AE59-EA5D063EADE4">
